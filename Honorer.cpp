@@ -25,7 +25,7 @@ cout << "Nama & Jam: "; cin >> d[i].n >> d[i].j;
 c.f(&d[i]);
 }
 } else if (p == 2 && n > 0) {
-cout << "\nPT. MERIANG GEMBIRA [cite: 26]\nNama\tHonor\tJam\tLembur\tTotal\n";
+cout << "\nPT. IVAN SENOPATI [cite: 26]\nNama\tHonor\tJam\tLembur\tTotal\n";
 int tot = 0;
 for (int i=0; i<n; i++) {
 cout << d[i].n << "\t" << d[i].h << "\t" << d[i].j << "\t" << d[i].l << "\t" << d[i].t << endl;
@@ -36,3 +36,4 @@ tot += d[i].t;
     }
     return 0;
 }
+
